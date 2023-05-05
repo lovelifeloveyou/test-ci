@@ -3,6 +3,7 @@ name: Sign in to javaclass.top
 on:
   schedule:
     - cron: '0 4 * * *'
+  workflow_dispatch:
 
 jobs:
   sign_in:
