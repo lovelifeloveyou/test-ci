@@ -1,0 +1,16 @@
+{
+  "name": "auto-qiandao",
+  "version": "1.0.0",
+  "description": "Sign in to javaclass.top every day at noon using Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.1.1",
+    "axios": "^1.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
