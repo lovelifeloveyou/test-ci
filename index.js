@@ -5,7 +5,7 @@ const password = process.env.JAVACLASS_PASSWORD;
 
 (async () => {
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
   })
   const page = await browser.newPage()
 
