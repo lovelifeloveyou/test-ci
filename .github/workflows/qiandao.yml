@@ -35,5 +35,5 @@ jobs:
     - name: Run script
       run: pnpm start
       env:
-        USERNAME: ${{ secrets.USERNAME }}
-        PASSWORD: ${{ secrets.PASSWORD }}
+        JAVACLASS_USERNAME: ${{ secrets.JAVACLASS_USERNAME }}
+        JAVACLASS_PASSWORD: ${{ secrets.JAVACLASS_PASSWORD }}

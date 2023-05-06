@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer')
 
-const username = process.env.USERNAME
-const password = process.env.PASSWORD
+const username = process.env.JAVACLASS_USERNAME
+const password = process.env.JAVACLASS_PASSWORD
 
 (async () => {
   const browser = await puppeteer.launch({
